@@ -1,0 +1,16 @@
+public class Shape {
+    void draw() {
+        System.out.println("Drawing a shape");
+    }
+}
+public class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing a circle");
+    }
+}
+
+public class Square extends Shape {
+    void draw() {
+        System.out.println("Drawing a square");
+    }
+}

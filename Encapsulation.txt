@@ -1,0 +1,16 @@
+public class Student {
+    private String name;
+    private int age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String newName) {
+        name = newName;
+    }
+    public Student(String initialName, int initialAge) {
+        name = initialName;
+        age = initialAge;
+    }
+}
